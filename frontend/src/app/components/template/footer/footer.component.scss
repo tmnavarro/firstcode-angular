@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  span {
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    .material-icons {
+      margin: 0 3px;
+      font-size: 1rem;
+    }
+  }
+}
