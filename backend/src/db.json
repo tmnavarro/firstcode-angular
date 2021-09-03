@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Produto 3",
       "price": 2665.56
+    },
+    {
+      "name": "Teste insert 123",
+      "price": 12.5,
+      "id": 4
     }
   ]
 }
