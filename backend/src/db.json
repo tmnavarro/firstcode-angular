@@ -1,19 +1,14 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Produto Editado",
-      "price": 5465654.222
-    },
-    {
       "id": 2,
       "name": "Produto 2",
       "price": 155.56
     },
     {
-      "id": 3,
-      "name": "Produto 3",
-      "price": 2665.56
+      "name": "Teste",
+      "price": 88989,
+      "id": 3
     }
   ]
 }

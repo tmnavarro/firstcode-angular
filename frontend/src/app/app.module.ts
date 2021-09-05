@@ -39,6 +39,7 @@ import { ProductReadSchematicComponent } from './components/products/product-rea
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
+import { DialogConfirmation } from './components/products/product-read/diaglog-confirmation.component';
 
 registerLocaleData(localePt);
 
@@ -56,6 +57,7 @@ registerLocaleData(localePt);
     ProductReadSchematicComponent,
     ProductUpdateComponent,
     ProductReadComponent,
+    DialogConfirmation,
   ],
   imports: [
     BrowserModule,
@@ -65,16 +67,16 @@ registerLocaleData(localePt);
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule,
     MatSnackBarModule,
     HttpClientModule,
+    MatDialogModule,
+    MatButtonModule,
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
     MatSortModule,
-    MatDialogModule,
   ],
   providers: [
     {
