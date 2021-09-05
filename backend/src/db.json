@@ -2,8 +2,8 @@
   "products": [
     {
       "id": 1,
-      "name": "Produto 1",
-      "price": 15.56
+      "name": "Produto Editado",
+      "price": 5465654.222
     },
     {
       "id": 2,
@@ -14,11 +14,6 @@
       "id": 3,
       "name": "Produto 3",
       "price": 2665.56
-    },
-    {
-      "name": "Teste insert 123",
-      "price": 12.5,
-      "id": 4
     }
   ]
 }
